@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="index.html">Manage</a></li>
+                <li><a href="login.html">Login</a></li>
+
+            </ul>
+        </nav>
+  <div class="container">
+    <h1>User Login</h1>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <p>Not Registered?</p><a href="signup.html">Click here</a>
+    <div id="errorMessage" class="error"></div>
+  </div>
+
+  
+  <script src="/login.js"></script>
+</body>
+</html>

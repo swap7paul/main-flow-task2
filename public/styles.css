@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    height:100%; 
+    background-image: url(mylibrary.webp);
+    background-size: cover;
+    background-position: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    color: #110101;
+    
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px 10px rgba(234, 229, 229, 0.5) ;
+}
+
+
+nav ul {
+    background-color: rgb(8, 7, 7,0.5);
+    padding: 1rem;
+    list-style:circle;
+    padding: 1rem;
+    /* position: fixed; */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #080707;
+    text-decoration: none;
+}
+
+section#home, section#about, section#contact, section#login {
+    text-align: center;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: rgba(6, 6, 6, 0.5);
+    padding: 25px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    padding-bottom: 40px;
+    text-align: center;
+    color: #ffdbdb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ce5f0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #ae2807;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete {
+    background: rgb(19, 13, 13);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+  }
+  
